@@ -1,0 +1,54 @@
+/* This ensures the grid gives the cards enough space */
+.subject-grid {
+display: flex;
+flex-direction: column;
+gap: 25px; /* Adds more space between cards */
+padding: 20px 0;
+}
+
+.card {
+background: white;
+border: 2px solid #004a99;
+border-radius: 12px;
+overflow: hidden;
+height: auto; /* CRITICAL: Allows the card to grow */
+}
+
+summary {
+padding: 20px;
+background-color: #f8f9fa;
+cursor: pointer;
+list-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-weight: bold;
+color: #004a99;
+border-bottom: 1px solid #eee; /* Adds a nice line under the title */
+}
+
+/* This fixes the overlapping text issue */
+.card-content {
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.card-content ul {
+margin-left: 20px;
+margin-bottom: 15px;
+}
+
+/* The Button Fix */
+.book-btn {
+display: inline-block;
+background-color: #004a99;
+color: white !important;
+text-align: center;
+padding: 12px 20px;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+margin-top: 10px;
+}
