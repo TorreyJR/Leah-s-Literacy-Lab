@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reading Tutoring - Leah's Literacy Lab</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="header-container">
+<img src="logo.png" alt="Leah's Literacy Lab Logo" class="main-logo">
+<h1>Reading & Literacy</h1>
+<p class="tagline">Developing Confident, Fluent Readers</p>
+<br>
+<a href="index.html" style="color: white; text-decoration: underline;">← Back to Home</a>
+</div>
+</header>
+
+<main class="container">
+<h2>Personalized Reading Support</h2>
+<p>I focus on building the foundational skills necessary for students to not only read, but to understand and enjoy the stories they encounter.</p>
+
+<h3>What We Focus On:</h3>
+<ul>
+<li><strong>Phonics & Decoding:</strong> Helping younger readers "sound out" words with confidence.</li>
+<li><strong>Reading Fluency:</strong> Working on speed, accuracy, and expression while reading aloud.</li>
+<li><strong>Comprehension:</strong> Teaching strategies to remember and analyze what was read.</li>
+<li><strong>Vocabulary Building:</strong> Expanding the student's "word bank" to improve writing and speaking.</li>
+</ul>
+
+<div class="booking-section">
+<h3>Ready to boost your child's reading confidence?</h3>
+<p>Every session uses evidence-based methods tailored to your child's specific needs.</p>
+<a href="mailto:your@email.com?subject=Reading Tutoring Inquiry" class="book-btn">Book a Reading Session</a>
+</div>
+</main>
+
+</body>
+</html>
